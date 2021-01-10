@@ -1,0 +1,301 @@
+@media screen and (max-width: 768px) {
+  /*SHOW*/
+  #show {
+    height: 100vh;
+  }
+  #show h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 0 0.5rem;
+  }
+  #show p {
+    font-size: 16px;
+  }
+  #show .btns .main-btn-left {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+  #show .btns .main-btn-right {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+
+  /*ABOUT*/
+
+  #about {
+    padding: 1rem;
+  }
+  #about h2 {
+    font-size: 25px;
+  }
+  #about .about-boxes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 1rem;
+  }
+  #about .about-boxes .box h3 {
+    font-size: 18px;
+  }
+  #about .about-boxes .box p {
+    font-size: 14px;
+  }
+
+  /*PORTFOLIO*/
+  #portfolio {
+    padding: 0.5rem;
+  }
+  #portfolio h2 {
+    font-size: 25px;
+    margin-bottom: 5%;
+  }
+  #portfolio .port-images {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  /*FEATURE*/
+
+  #feature {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+  }
+  #feature h2 {
+    font-size: 25px;
+  }
+  #feature .feature-boxes {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 0.5rem;
+  }
+
+  /*CHOICE*/
+
+  #choice {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #choice .box h3 {
+    font-size: 22px;
+  }
+  #choice .box .line {
+    width: 10%;
+    height: 5px;
+    background-color: #259ae2;
+  }
+  #choice .box p {
+    font-size: 14px;
+  }
+
+  /*FIXED*/
+
+  #fixed {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #fixed i {
+    font-size: 30px;
+    color: #8bc4e7;
+  }
+  #fixed h3 {
+    font-size: 25px;
+  }
+  #fixed p {
+    font-size: 16px;
+  }
+
+  /*PRICING*/
+
+  #pricing {
+    padding: 0.5rem;
+  }
+  #pricing h2 {
+    font-size: 35px;
+    margin-bottom: 5%;
+  }
+  #pricing .price-boxes {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  #pricing .price-boxes .box {
+    margin-bottom: 1rem;
+  }
+
+  #pricing .price-boxes .box h4 {
+    font-size: 18px;
+  }
+  #pricing .price-boxes .box h3 {
+    font-size: 22px;
+  }
+  #pricing .price-boxes .box p {
+    font-size: 14px;
+  }
+  #pricing .price-boxes .box .price-btn {
+    font-size: 14px;
+    padding: 1% 2%;
+  }
+
+  /*TESTIMONIAL*/
+  #testimonial {
+    padding: 2rem;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  #testimonial .test-box .client-detail h3 {
+    font-size: 18px;
+  }
+  #testimonial .test-box .client img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  #testimonial .test-box .client-detail p {
+    font-size: 14px;
+  }
+  #testimonial .test-box p {
+    font-size: 14px;
+  }
+
+  /*TEAM*/
+
+  #team {
+    padding: 1rem;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #team h2 {
+    font-size: 25px;
+  }
+  #team .teams {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  #team .teams .team-mem {
+    background: #dfdcdc;
+  }
+  #team .teams .team-mem h3 {
+    font-size: 18px;
+  }
+  #team .teams .team-mem p {
+    font-size: 14px;
+  }
+
+  /*BLOG*/
+
+  #blog {
+    text-align: center;
+    padding: 0.8rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #blog h2 {
+    font-size: 25px;
+  }
+  #blog .blog-card {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  #blog .blog-card .card .details {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #blog .blog-card .card .blog-content {
+    padding: 0.5rem;
+  }
+  #blog .blog-card .card .blog-content h3 {
+    font-size: 18px;
+  }
+  #blog .blog-card .card .blog-content p {
+    font-size: 14px;
+  }
+  #blog .blog-card .card .blog-content a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #1196e9;
+  }
+
+  /*CONTACT*/
+
+  #contact {
+    padding: 0.8rem;
+  }
+  #contact h2 {
+    font-size: 25px;
+  }
+  #contact .cont-box {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  #contact .cont-box .cont h3 {
+    font-size: 18px;
+  }
+  #contact .cont-box .cont p {
+    font-size: 14px;
+  }
+  #contact form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #contact form input[type="text"] {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    font-size: 16px;
+  }
+  #contact form input[type="email"] {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    font-size: 16px;
+  }
+  #contact form input[type="submit"] {
+    width: 40%;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    font-size: 15px;
+  }
+  #contact form textarea {
+    width: 80%;
+    padding: 1.5rem 0.5rem;
+    margin: 0.4rem;
+    font-size: 16px;
+  }
+
+  /*FOOTER*/
+
+  footer {
+    padding: 0.5rem;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  footer .icons a {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer .icons a i {
+    font-size: 22px;
+    padding: 2%;
+    margin: 0.3rem;
+    cursor: pointer;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}
